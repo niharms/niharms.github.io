@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<style>
+
+@font-face{
+  font-family: 'Fanwood-Webfont';
+  src: url('/fonts/fanwood-webfont.woff') format('woff');
+}
+@font-face{
+  font-family: 'Fanwood-Italic-Webfont';
+  src: url('/fonts/fanwood_italic-webfont.woff') format('woff');
+}
+@font-face{
+  font-family: 'Fanwood-Text-Italic-Webfont';
+  src: url('/fonts/fanwood_text_italic-webfont.woff') format('woff');
+}
+@font-face{
+  font-family: 'Fanwood-Text-Webfont';
+  src: url('/fonts/fanwood_text-webfont.woff') format('woff');
+}
+
+@font-face{
+  font-family: 'Goudy Bookletter 1911';
+  src: url('/fonts/goudy_bookletter_1911-webfont.woff') format('woff');
+}
+
+body {
+  /*font-family: 'Goudy Bookletter 1911', serif;*/
+  font-size: 120%;
+  background-color: #fff9f0;
+  font-family:"Fanwood-Webfont", serif;
+  font-feature-settings: "liga", "clig";
+  /*font-family:"Fanwood-Text-Webfont", serif;*/
+  /*font-family:"Fanwood-Text-Italic-Webfont", serif;*/
+}
+
+em {
+  font-family:"Fanwood-Italic-Webfont", serif;
+}
+
+footer{
+  padding: 2em;
+  opacity: 40%;
+}
+
+div.logo {
+  float: left;
+  width:55px;
+  opacity:40%;
+  position:fixed;
+}
+
+img.logo {
+  width: 100%;
+}
+
+.left, .right {
+  float: left;
+  width: 20%;
+}
+
+.main {
+  text-align:left;
+  margin:auto;
+  padding-left:0em;
+  padding-right:0em;
+}
+
+.drop-cap::first-letter {
+  font-size: 2em;
+  float: left;
+  margin: 0 5px 0 0;
+  padding:4px;
+  border: 1px solid;
+  border-radius:0px;
+}
+
+/* COLORS ----------------------------------------------------------------------------------------*/
+
+.color-blue {
+  background-color:#6bc6ff;
+}
+
+/* SEPARATORS ------------------------------------------------------------------------------------*/
+
+div.separator-large{
+  text-align:center;
+  width=100%;
+}
+
+div.separator-large img {
+  max-width: 42em;
+  width: 100%;
+  height: auto;
+  vertical-align:middle;
+}
+
+div.separator-mid{
+  margin: 0 0 0 0;
+  text-align:center;
+  width=100%;
+}
+
+div.separator-mid img {
+  max-width: 42em;
+  width: 100%;
+  height: auto;
+  vertical-align:middle;
+}
+
+
+/* Arts            * -----------------------------------------------------------------------------*/
+
+div.art{
+  text-align:center;
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  font-family: monospace;
+}
+
+div.art-left{
+  width: 50%;
+  min-width: 350px;
+  order: 1;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing:border-box;
+}
+
+img.art-image-thumb{
+  width:100%;
+}
+
+div.art-right{
+  width: 50%;
+  min-width: 350px;
+  text-align: left;
+  margin: 0 auto;
+  order: 2;
+  padding: 20px;
+  box-sizing:border-box;
+}
+
+div.art-large{
+  text-align:center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  font-family: monospace;
+}
+
+div.art-large-left{
+  width: 1500px;
+  min-width: 80%;
+  order: 1;
+  margin: 0 auto;
+  text-align: left;
+  box-sizing:border-box;
+}
+
+div.art-large-right{
+  min-width: 20rem;
+  max-width: 40rem;
+  text-align: left;
+  padding: 1rem;
+  margin: 0 auto;
+  order: 2;
+  box-sizing:border-box;
+}
+
+img.art-image-large{
+  width:100%;
+}
+
+p.caption{
+  font-family: monospace;
+  color: #808080;
+}
+
+div.image-title{
+  width:100%;
+  padding: 0 0 1em 0; /* top right bottom left */
+  text-align: center;
+  box-sizing:border-box;
+}
+
+img.image-title{
+  width:100%;
+  margin: 0 auto;
+}
+
+div.image-fullwidth{
+  width:100%;
+}
+
+img.image-fullwidth{
+  max-width:100%;
+}
+
+/* Publications    * -----------------------------------------------------------------------------*/
+
+a:link {
+  color: #bf4553;
+}
+
+a:hover {
+  color: #fb4e61;
+}
+
+a:visited {
+  color: #81222d;
+}
+
+div.publication{
+  text-align:left;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+div.publication-left{
+  width: 70%;
+  order: 1;
+  margin-bottom: 10px;
+  margin-right: 1em;
+}
+
+div.publication-right{
+  width:9em;
+  order: 2;
+}
+
+div.publication-extra{
+  width: 70%;
+  order: 3;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.publication-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.publication-authors {
+  font-family: "Fanwood-Italic-Webfont", serif;
+  padding-left: 1em;
+  margin-bottom: 5px;
+}
+
+.publication-arxiv-link {
+  padding-left: 1em;
+}
+
+.publication-conference-venue {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+/* PANELS ----------------------------------------------------------------------------------------*/
+
+/* Panel: Basic * ---------------------------------------------------------------------------------*/
+div.panel-basic {
+  padding: 1em;
+  width:100%;
+  box-sizing: border-box;
+}
+
+div.panel-basic-column {
+  width: 60%;
+  max-width: 50em;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Panel: Gallery  * -----------------------------------------------------------------------------*/
+
+div.panel-gallery{
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Panel: Parallel * -----------------------------------------------------------------------------*/
+
+div.panel-parallel-wide{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 150rem;
+  margin: 0 auto;
+}
+
+div.panel-parallel-subpanel{
+  flex: 1;
+  min-width: 300px;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Content Cards ---------------------------------------------------------------------------------*/
+
+div.content-card-basic{
+  padding: 20px;
+  margin-top: 1em;
+  margin: auto;
+  text-align: justify;
+}
+
+div.content-card-outline{
+  border: 2px;
+  border-style: solid;
+  border-color: #339fcd;
+  border-radius: 7px;
+  padding: 20px;
+  margin-top: 1em;
+  margin: auto;
+}
+
+card-header{
+  text-align: center;
+  max-height:2em;
+  display: block;
+  font-size: 1.5em;
+  /*font-weight: bold;*/
+  /*font-feature-settings: "smcp";*/
+  margin=0pt;
+}
+
+@media (max-width: 900px) {
+  div.panel-parallel-wide{
+    flex-basis: 100%;
+  }
+
+  div.panel-basic-column {
+    width: 100%;
+    padding: 1em;
+  }
+
+  div.publication-left {
+    width: 100%;
+  }
+
+  div.publication-extra {
+    width: 100%;
+  }
+
+
+@media screen and (max-width: 900px) {
+  div.logo {
+    position:static;
+  }
+
+  .left, .main, .right {
+    width: 100%;
+  }
+}
+
+</style>
+<title>title</title>
+</head>
+
+<body style="background-color:#fff9f0;text-align:center">
+
+<div class="boundary" style="overflow:hidden" width=100%>
+
+<div class="main">
+
+<root><div class="logo"><a href="index.html"><img class="logo" src="/ornaments/titles/NH.png"/></a></div><div class="separator-large"><img src="ornaments/plant/separator_large.svg"/></div><div class="art-large"><div class="art-large-left"><img class="art-image-large" src="/arts/wola_poster/parity_trace_poster_3k_transparent.png" alt="Parity trace poster"/></div><div class="art-large-right"><p><strong>Distribution Testing and Testing vs Learning</strong>. August 2023.</p><p><strong>Pen:</strong> Lamy Joy (stub nib), Platinum #3776 Centure (UEF nib), brush.</p><p><strong>Ink:</strong> Pilot Black, Diamine Ancient Copper, Diamine Monboddo’s Hat, Iroshizuku Shin-Kai.</p><p><strong>Paper:</strong> Bristol, 1m x 0.7m.</p><p>I made this poster for WoLA 2023 at MIT. It is based on my joint work with Renato Ferreira Pinto Jr.
+You might be able to see a tiny island called “Confused Collector” in the Lower Vee Sea; our paper
+on the confused collector will appear at ITCS 2024.</p><p><strong>Download:</strong>
+<a href="/arts/parity_trace_poster_3k.jpg">High resolution version.</a>
+<a href="/arts/parity_trace_poster_full.jpg">Highest resolution version.</a></p></div></div><div class="separator-large"><img src="ornaments/plant/separator_large.svg"/></div><div class="panel-basic"><div class="panel-basic-column"><div style="text-align:center"><span style="font-size:150%">How to Make a Poster without a Turing Machine</span></div></div></div><div class="separator-mid"><img src="ornaments/plant/separator_mid.svg"/></div><div class="panel-gallery"><div class="art"><div class="art-left"><img class="art-image-thumb" src="/arts/wola_poster/process_1.jpg" alt="Step 1: Sketching"/></div><div class="art-right"><p><strong>Step 1: Ideas and Sketching</strong>.</p><p>Ideas for posters usually happen immediately upon waking. If you have no ideas, go to sleep.</p></div></div><div class="art"><div class="art-left"><img class="art-image-thumb" src="/arts/wola_poster/process_2.jpg" alt="Step 2: Blocking"/></div><div class="art-right"><p><strong>Step 2: Blocking</strong>.</p><p>Sketch out each element on a smaller sheet of paper. This lets you move things around and get a good
+layout.</p></div></div><div class="art"><div class="art-left"><img class="art-image-thumb" src="/arts/wola_poster/process_3.jpg" alt="Step 3: Penciling"/></div><div class="art-right"><p><strong>Step 3: Penciling</strong>.</p><p>One good way to help lay out the text, to get the spacing right, is to write the text on another
+sheet of paper and then put it just below where you are writing.</p></div></div><div class="art"><div class="art-left"><img class="art-image-thumb" src="/arts/wola_poster/process_4.jpg" alt="Step 4: Inking"/></div><div class="art-right"><p><strong>Step 4: Inking</strong>.</p><p>I used a brush for large text and a fountain pen with a stub nib for the small text. For the
+drawings I used a smaller stub nib, two more fountain pens with fine and medium nibs, and a Platinum
+#3776 Century fountain pen with an ultra-extra-fine nib.</p></div></div><div class="art"><div class="art-left"><img class="art-image-thumb" src="/arts/wola_poster/process_5.jpg" alt="Step 5: Star Trek"/></div><div class="art-right"><p><strong>Step 5: Star Trek</strong>.</p><p>You have about 20 hours of drawing tiny trees to go, so queue up Star Trek: Enterprise or another
+Star Trek series of your choice.</p><p>Also, put your inks and coffee on a stool separate from the drawing surface so that you don’t
+accidentally knock them onto the poster.</p></div></div><div class="art"><div class="art-left"><img class="art-image-thumb" src="/arts/wola_poster/process_6.jpg" alt="Step 6: Profit"/></div><div class="art-right"><strong>Step 6: Profit</strong>.</div></div></div><p>
+</p><div class="separator-mid"><img src="ornaments/plant/separator_mid.svg"/></div></root>
+
+
+</div>
+</div>
+
+
+<footer>© 2023 Nathaniel Harms</footer>
+</body>
+</html>
