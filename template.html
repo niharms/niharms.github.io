@@ -55,7 +55,7 @@ footer{
 div.logo {
   float: left;
   width:55px;
-  opacity:40%;
+  opacity:60%;
   position:fixed;
 }
 
@@ -123,10 +123,11 @@ div.separator-mid img {
 div.art{
   text-align:center;
   width: 100%;
-  max-width: 700px;
+  max-width: 740px;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
+  padding: 20px;
   font-family: monospace;
 }
 
@@ -135,7 +136,6 @@ div.art-left{
   min-width: 350px;
   order: 1;
   margin: 0 auto;
-  padding: 20px;
   box-sizing:border-box;
 }
 
@@ -144,6 +144,7 @@ img.art-image-thumb{
 }
 
 div.art-right{
+  font-size: 80%;
   width: 50%;
   min-width: 350px;
   text-align: left;
@@ -290,10 +291,12 @@ div.panel-basic-column {
 /* Panel: Gallery  * -----------------------------------------------------------------------------*/
 
 div.panel-gallery{
-  width: 75%;
+  width: 100%;
+  padding: 0 50px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 /* Panel: Parallel * -----------------------------------------------------------------------------*/
@@ -341,6 +344,12 @@ card-header{
   /*font-weight: bold;*/
   /*font-feature-settings: "smcp";*/
   margin=0pt;
+}
+
+@media (min-width: 2000px) {
+  body {
+    font-size: 200%;
+  }
 }
 
 @media (max-width: 900px) {

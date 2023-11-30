@@ -42,6 +42,8 @@ postdoc in ◊link["https://ic-people.epfl.ch/~goos/"]{Mika Göös'} group at EP
 feel. I spend most of my time thinking about two things: property testing vs. learning, and
 randomized communication.
 
+◊center{◊bf{◊link["publications.html"]{Click here to see my sciences.}}}
+
 ◊bf{Property testing vs. learning:} The goal is to understand which properties (i.e. sets of
 functions) can be ◊em{tested} more efficiently than they can be ◊em{learned}. I focus on the
 distribution-free sample-based model, because in this model, learning is well understood while
@@ -50,8 +52,6 @@ property testing is not.
 ◊bf{Randomized communication:} The goal is to understand the power of randomness in communication.
 I am trying to understand the most extreme examples: the problems where the number of bits of
 communication required to solve the problem is ◊em{constant}, i.e. independent of the problem size.
-
-◊link["publications.html"]{Click here to see my sciences}.
 
 ◊link["wola_poster.html"]{◊image-inline{/arts/wola_poster/parity_trace_poster_500_transparent.png}}
 ◊center{◊caption{WOLA Poster. Pen & ink, 2023.}}
@@ -68,7 +68,7 @@ and the stars and the chakras align, under the clearest of skies, when the campf
 embers and its smoke tickles the noses of angels, my pen puts pigment on the paper in a particular
 pleasant pattern, which some might even say, could crudely be considered "artistic".
 
-◊link["arts.html"]{Click here to see my arts}.
+◊center{◊bf{◊link["arts.html"]{Click here to see my arts}.}}
 
 ◊image-inline{/arts/octopus_500_transparent.png}
 ◊center{◊caption{Self portrait. Pen & ink, 2023.}}
