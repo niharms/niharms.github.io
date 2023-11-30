@@ -18,8 +18,8 @@ You might be able to see a tiny island called "Confused Collector" in the Lower 
 on the confused collector will appear at ITCS 2024.
 
 ◊bf{Download:}
-◊link["/arts/parity_trace_poster_3k.jpg"]{High resolution version.}
-◊link["/arts/parity_trace_poster_full.jpg"]{Highest resolution version.}
+◊link["/arts/wola_poster/parity_trace_poster_3k.jpg"]{High resolution version.}
+◊link["/arts/wola_poster/parity_trace_poster_full.jpg"]{Highest resolution version.}
 
 }
 
