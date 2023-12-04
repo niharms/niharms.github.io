@@ -17,8 +17,12 @@
   A tengu is a Japanese forest spirit. This drawing is based on a photo I took in Japan (of a
   statue, not a real tengu).
 
-  ◊bf{Download:} ◊link["/arts/tengu_1k.png"]{Opaque version (white background).}
+  ◊link["/arts/tengu_1k.png"]{Opaque version (white background).}
 
+
+  ◊bf{The atoms:}
+
+  ◊image-inline{/arts/tengu_irl.jpg}
 }
 
 ◊separator-mid

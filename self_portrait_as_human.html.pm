@@ -16,6 +16,9 @@
 
 I made this just for the website!
 
+◊bf{The atoms:}
+
+◊image-inline{/arts/self_portrait_irl.jpg}
 
 }
 
