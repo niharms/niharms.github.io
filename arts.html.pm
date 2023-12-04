@@ -23,7 +23,20 @@ greatest invention of any humanoid species.
 
 ◊panel-gallery{
 
-◊art["/arts/self_portrait_500_transparent.png" "Self portrait as a human"]{
+◊art["tengu" "/arts/tengu_transparent_500.png" "Tengu"]{
+  ◊bf{Tengu.} Dec. 2023.
+  
+  ◊bf{Pen:} Pilot Custom 823 (F nib).
+
+  ◊bf{Ink:} Diamine Aurora Borealis.
+
+  ◊bf{Paper:} Canson bristol, A3.
+
+  A tengu is a Japanese forest spirit. This drawing is based on a photo I took in Japan (of a
+  statue, not a real tengu).
+}
+
+◊art["self_portrait_as_human" "/arts/self_portrait_500_transparent.png" "Self portrait as a human"]{
 ◊bf{Self portrait as a human.} Nov. 2023.
 
 ◊bf{Pen:} Sailor Hocoro (fude nib).
@@ -36,7 +49,7 @@ I made this just for the website!
 
 }
 
-◊art["/arts/bee_500_transparent.png" "Bee"]{◊bf{Bee}. Oct. 2023.
+◊art["bee" "/arts/bee_500_transparent.png" "Bee"]{◊bf{Bee}. Oct. 2023.
 
 ◊bf{Pen:} Sailor Hocoro (fude nib), Pilot Parallel.
 
@@ -49,7 +62,7 @@ If you want to see tons of great macro photography of bees, check out the
 bee inventory!}
 }
 
-◊art["/arts/jellyfish_dots_500_transparent.png" "Coral Reef"]{◊bf{Jellyfish sketch}. August 2023.
+◊art["jellyfish_dots" "/arts/jellyfish_dots_500_transparent.png" "Jellyfish Dots"]{◊bf{Jellyfish sketch}. August 2023.
 
 ◊bf{Pen:} Platinum #3776 Century (UEF nib).
 
@@ -61,10 +74,10 @@ Gifted to my friend Julie Messier.
 
 }
 
-◊art["/arts/wola_poster/parity_trace_poster_500_transparent.png" "Parity Trace Poster"]{
+◊art["wola_poster" "/arts/wola_poster/parity_trace_poster_500_transparent.png" "Parity Trace Poster"]{
 ◊bf{Distribution Testing & Testing vs Learning}. August 2023.
 
-◊bf{Pen:} Lamy Joy (stub nib), Platinum #3776 Centure (UEF nib), brush.
+◊bf{Pen:} Lamy Joy (stub nib), Platinum #3776 Century (UEF nib), brush.
 
 ◊bf{Ink:} Pilot Black, Diamine Ancient Copper, Diamine Monboddo's Hat, Iroshizuku Shin-Kai.
 
@@ -76,7 +89,7 @@ I presented this poster at WoLA 2023 in MIT.
 }
 
 
-◊art["/arts/coral_reef_500_transparent.png" "Coral Reef"]{◊bf{Coral reef}. May 2023.
+◊art["coral_reef" "/arts/coral_reef_500_transparent.png" "Coral Reef"]{◊bf{Coral reef}. May 2023.
 
 ◊bf{Pen:} The Good Blue R615 (flex nib).
 
@@ -86,7 +99,7 @@ I presented this poster at WoLA 2023 in MIT.
 }
 
 
-◊art["/arts/internet_guy_500_transparent.png" "Wrinkled Old Internet Man"]{◊bf{Wrinkled old internet
+◊art["wrinkled_internet_man" "/arts/internet_guy_500_transparent.png" "Wrinkled Old Internet Man"]{◊bf{Wrinkled old internet
 man}. April 2023.
 
 ◊bf{Pen:} Pilot Custom 823.
@@ -100,7 +113,7 @@ me.
 }
 
 
-◊art["/arts/koi_500_transparent.png" "Koi Fish"]{◊bf{Koi fish sketch}. March 2023.
+◊art["koi" "/arts/koi_500_transparent.png" "Koi Fish"]{◊bf{Koi fish sketch}. March 2023.
 
 ◊bf{Pen:} Pilot Custom 823.
 
@@ -111,7 +124,7 @@ me.
 Gifted to my friend Renato Ferreira Pinto Jr.
 }
 
-◊art["/arts/betta_fish_500_transparent.png" "Betta Fish"]{◊bf{Betta fish sketch}. March 2023.
+◊art["betta_fish" "/arts/betta_fish_500_transparent.png" "Betta Fish"]{◊bf{Betta fish sketch}. March 2023.
 
 ◊bf{Pen:} Pilot Custom 823.
 
@@ -120,7 +133,7 @@ Gifted to my friend Renato Ferreira Pinto Jr.
 ◊bf{Paper:} Moleskine, A4.
 }
 
-◊art["/arts/octopus_500_transparent.png" "Octopus"]{◊bf{Self portrait}. Feb. 2023.
+◊art["self_portrait" "/arts/octopus_500_transparent.png" "Self portrait"]{◊bf{Self portrait}. Feb. 2023.
 
 ◊bf{Pen:} Visconti Van Gogh.
 

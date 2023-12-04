@@ -7,7 +7,7 @@
 ◊art_large["/arts/wola_poster/parity_trace_poster_3k_transparent.png" "Parity trace poster"]{
 ◊bf{Distribution Testing and Testing vs Learning}. August 2023.
 
-◊bf{Pen:} Lamy Joy (stub nib), Platinum #3776 Centure (UEF nib), brush.
+◊bf{Pen:} Lamy Joy (stub nib), Platinum #3776 Century (UEF nib), brush.
 
 ◊bf{Ink:} Pilot Black, Diamine Ancient Copper, Diamine Monboddo's Hat, Iroshizuku Shin-Kai.
 
@@ -33,27 +33,27 @@ on the confused collector will appear at ITCS 2024.
 ◊separator-mid
 
 ◊panel-gallery{
-◊art["/arts/wola_poster/process_1.jpg" "Step 1: Sketching"]{
+◊art[#f "/arts/wola_poster/process_1.jpg" "Step 1: Sketching"]{
 ◊bf{Step 1: Ideas and Sketching}.
 
 Ideas for posters usually happen immediately upon waking. If you have no ideas, go to sleep.
 }
 
-◊art["/arts/wola_poster/process_2.jpg" "Step 2: Blocking"]{
+◊art[#f "/arts/wola_poster/process_2.jpg" "Step 2: Blocking"]{
 ◊bf{Step 2: Blocking}.
 
 Sketch out each element on a smaller sheet of paper. This lets you move things around and get a good
 layout.
 }
 
-◊art["/arts/wola_poster/process_3.jpg" "Step 3: Penciling"]{
+◊art[#f "/arts/wola_poster/process_3.jpg" "Step 3: Penciling"]{
 ◊bf{Step 3: Penciling}.
 
 One good way to help lay out the text, to get the spacing right, is to write the text on another
 sheet of paper and then put it just below where you are writing.
 }
 
-◊art["/arts/wola_poster/process_4.jpg" "Step 4: Inking"]{
+◊art[#f "/arts/wola_poster/process_4.jpg" "Step 4: Inking"]{
 ◊bf{Step 4: Inking}.
 
 I used a brush for large text and a fountain pen with a stub nib for the small text. For the
@@ -62,7 +62,7 @@ drawings I used a smaller stub nib, two more fountain pens with fine and medium 
 
 }
 
-◊art["/arts/wola_poster/process_5.jpg" "Step 5: Star Trek"]{
+◊art[#f "/arts/wola_poster/process_5.jpg" "Step 5: Star Trek"]{
 ◊bf{Step 5: Star Trek}.
 
 You have about 20 hours of drawing tiny trees to go, so queue up Star Trek: Enterprise or another
@@ -73,7 +73,7 @@ accidentally knock them onto the poster.
 
 }
 
-◊art["/arts/wola_poster/process_6.jpg" "Step 6: Profit"]{
+◊art[#f "/arts/wola_poster/process_6.jpg" "Step 6: Profit"]{
 ◊bf{Step 6: Profit}.
 
 }

@@ -162,11 +162,15 @@ text)))]
 
 ;◊; Images -----------------------------------------------------
 
-(define (art thumbnail_src title . elements)
+(define (art name thumbnail_src title . elements)
   `(div ((class "art"))
     (div ((class "art-left"))
-      (img ((class "art-image-thumb") (src ,thumbnail_src) (alt ,title))))
-    (div ((class "art-right")) ,@elements)))
+      ,(if name
+         `(a ((href ,(string-append "/" name ".html")))
+            (img ((class "art-image-thumb") (src ,thumbnail_src) (alt ,title))))
+         `(img ((class "art-image-thumb") (src ,thumbnail_src) (alt ,title)))
+      )
+    (div ((class "art-right")) ,@elements))))
 
 (define (caption . elements)
   `(p ((class "caption")) ,@elements))
