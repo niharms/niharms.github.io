@@ -98,6 +98,37 @@ I presented this poster at WoLA 2023 in MIT.
 ◊bf{Paper:} Canson bristol, A4.
 }
 
+◊art["nih_cartoon" "/arts/nih_cartoon_transparent.png" "Number-In-Hand Cartoon"]{
+
+◊bf{Number-In-Hand Communication}. May 2023.
+
+◊bf{Pen:} The Good Blue R615 (flex nib), Lamy Joy (stub nib).
+
+◊bf{Ink:} Pilot Black, Diamine Ancient Copper (or maybe Iroshizuku Fuyu-Gaki?).
+
+◊bf{Paper:} Canson bristol, A4.
+
+Cartoon diagram of the Number-In-Hand (NIH) communication
+model. "Commissioned" by Lianna Hambardzumyan for her presentation at a few workshops.
+
+Feel free to use in your own presentations! Click the image to see downloads.
+}
+
+◊art["nof_cartoon" "/arts/nof_cartoon_transparent.png" "Number-On-Forehead Cartoon"]{
+
+◊bf{Number-On-Forehead Communication}. May 2023.
+
+◊bf{Pen:} The Good Blue R615 (flex nib), Lamy Joy (stub nib).
+
+◊bf{Ink:} Pilot Black, Diamine Ancient Copper (or maybe Iroshizuku Fuyu-Gaki?).
+
+◊bf{Paper:} Canson bristol, A4.
+
+Cartoon diagram of the Number-On-Forehead (NOF) communication
+model. "Commissioned" by Lianna Hambardzumyan for her presentation at a few workshops.
+
+Feel free to use in your own presentations! Click the image to see downloads.
+}
 
 ◊art["wrinkled_internet_man" "/arts/internet_guy_500_transparent.png" "Wrinkled Old Internet Man"]{◊bf{Wrinkled old internet
 man}. April 2023.
