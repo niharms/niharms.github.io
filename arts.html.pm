@@ -23,6 +23,14 @@ greatest invention of any humanoid species.
 
 ◊panel-gallery{
 
+◊art["woodburn_compass" "/arts/woodburn_compass_rose/woodburn_transparent_500.png" "Woodburn Compass Rose"]{
+  ◊bf{Compass Rose.} Dec. 2023.
+
+  ◊bf{Medium:} Burnt basswood.
+
+  My first attempt at pyrography (woodburning).
+}
+
 ◊art["tengu" "/arts/tengu_transparent_500.png" "Tengu"]{
   ◊bf{Tengu.} Dec. 2023.
   
