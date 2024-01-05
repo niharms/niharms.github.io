@@ -36,13 +36,13 @@
   "Randomized Communication and Implicit Representations for Matrices and Graphs of Small Sign-Rank"
   "Nathan Harms, Viktor Zamaraev"
   "2307.04441"
-  "SODA 2024"]
+  "SODA 2024"]{◊link["/soda2024.html"]{Hand-drawn slides here}.}
 
 ◊publication[
   "Optimal Adjacency Labels for Subgraphs of Cartesian Products"
   "Louis Esperet, Nathan Harms, Viktor Zamaraev"
   "2206.02872"
-  "ICALP 2023"]{I drew my slides for ICALP by hand! ◊link["/arts/icalp2023_slides.pdf"]{See them here}.}
+  "ICALP 2023"]{◊link["/arts/icalp2023_slides.pdf"]{Hand-drawn slides here}.}
 
 ◊publication[
   "Distribution Testing Under the Parity Trace"

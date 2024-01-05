@@ -49,18 +49,21 @@ functions) can be ◊em{tested} more efficiently than they can be ◊em{learned}
 distribution-free sample-based model, because in this model, learning is well understood while
 property testing is not. 
 
+◊link["wola_poster.html"]{◊image-inline{/arts/wola_poster/parity_trace_poster_500_transparent.png}}
+◊center{◊caption{WOLA Poster. Pen & ink, 2023.}}
+
 ◊bf{Randomized communication:} The goal is to understand the power of randomness in communication.
 I am trying to understand the most extreme examples: the problems where the number of bits of
 communication required to solve the problem is ◊em{constant}, i.e. independent of the problem size.
 
-◊link["wola_poster.html"]{◊image-inline{/arts/wola_poster/parity_trace_poster_500_transparent.png}}
-◊center{◊caption{WOLA Poster. Pen & ink, 2023.}}
+◊link["soda2024.html"]{◊image-inline{/arts/soda2024/randomized_communication_transparent_500.png}}
+◊center{◊caption{Slide from SODA 2024. Pen & ink, 2024.}}
 }
 }
 
 ◊panel-parallel-subpanel{
 ◊content-card-basic{
-◊card-header{The Not Science}
+◊card-header{The Nonsense}
 
 ◊drop-cap{L}ong ago, in the dark and distant past, I was a fine arts student who dropped out after
 my work was criticized as "too analytical". Now, on the right occasion, when theorems are evasive,

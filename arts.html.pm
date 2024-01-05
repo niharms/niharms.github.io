@@ -23,6 +23,20 @@ greatest invention of any humanoid species.
 
 ◊panel-gallery{
 
+◊art["soda2024" "/arts/soda2024/thumbnail_500.png" "SODA 2024 Slides"]{
+  ◊bf{SODA 2024 Slides.} Jan. 2024.
+
+  ◊bf{Pen:} Platinum 3776 Century (UEF nib) for black, various others for colors.
+
+  ◊bf{Ink:} Platinum carbon black, Diamine wild strawberry, Diamine ancient copper, Diamine aurora
+borealis, Iroshizuku ama-iro.
+
+  ◊bf{Paper:} Midori MD, A4.
+
+  My slides for the paper ◊it{Randomized Communication and Implicit Representations for Matrices and
+Graphs of Small Sign-Rank}, coauthored with Viktor Zamaraev and presented at SODA 2024.
+}
+
 ◊art["woodburn_compass" "/arts/woodburn_compass_rose/woodburn_transparent_500.png" "Woodburn Compass Rose"]{
   ◊bf{Compass Rose.} Dec. 2023.
 
