@@ -34,7 +34,8 @@ make sure you've got it.
 
 ◊bf{4. Every 20 minutes do 10 pushups.}
 
-Self-evident in retrospect but often missed.
+Self-evident in retrospect but often missed. Many successful researchers may not even be aware that
+they are doing this.
 
 ◊bf{5. Listen to music that increases in tempo throughout the day.}
 
