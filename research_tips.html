@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<style>
+
+@font-face{
+  font-family: 'Fanwood-Webfont';
+  src: url('/fonts/fanwood-webfont.woff') format('woff');
+}
+@font-face{
+  font-family: 'Fanwood-Italic-Webfont';
+  src: url('/fonts/fanwood_italic-webfont.woff') format('woff');
+}
+@font-face{
+  font-family: 'Fanwood-Text-Italic-Webfont';
+  src: url('/fonts/fanwood_text_italic-webfont.woff') format('woff');
+}
+@font-face{
+  font-family: 'Fanwood-Text-Webfont';
+  src: url('/fonts/fanwood_text-webfont.woff') format('woff');
+}
+
+@font-face{
+  font-family: 'Goudy Bookletter 1911';
+  src: url('/fonts/goudy_bookletter_1911-webfont.woff') format('woff');
+}
+
+body {
+  /*font-family: 'Goudy Bookletter 1911', serif;*/
+  font-size: 120%;
+  background-color: #fff9f0;
+  font-family:"Fanwood-Webfont", serif;
+  font-feature-settings: "liga", "clig";
+  /*font-family:"Fanwood-Text-Webfont", serif;*/
+  /*font-family:"Fanwood-Text-Italic-Webfont", serif;*/
+}
+
+em {
+  font-family:"Fanwood-Italic-Webfont", serif;
+}
+
+footer{
+  padding: 2em;
+  opacity: 40%;
+}
+
+div.logo {
+  float: left;
+  width:55px;
+  opacity:60%;
+  position:fixed;
+}
+
+img.logo {
+  width: 100%;
+}
+
+.left, .right {
+  float: left;
+  width: 20%;
+}
+
+.main {
+  text-align:left;
+  margin:auto;
+  padding-left:0em;
+  padding-right:0em;
+}
+
+.drop-cap::first-letter {
+  font-size: 2em;
+  float: left;
+  margin: 0 5px 0 0;
+  padding:4px;
+  border: 1px solid;
+  border-radius:0px;
+}
+
+/* COLORS ----------------------------------------------------------------------------------------*/
+
+.color-blue {
+  background-color:#6bc6ff;
+}
+
+/* SEPARATORS ------------------------------------------------------------------------------------*/
+
+div.separator-large{
+  text-align:center;
+  width=100%;
+}
+
+div.separator-large img {
+  max-width: 42em;
+  width: 100%;
+  height: auto;
+  vertical-align:middle;
+}
+
+div.separator-mid{
+  margin: 0 0 0 0;
+  text-align:center;
+  width=100%;
+}
+
+div.separator-mid img {
+  max-width: 42em;
+  width: 100%;
+  height: auto;
+  vertical-align:middle;
+}
+
+
+/* Arts            * -----------------------------------------------------------------------------*/
+
+div.art{
+  text-align:center;
+  width: 100%;
+  max-width: 740px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: monospace;
+}
+
+div.art-left{
+  width: 50%;
+  min-width: 350px;
+  order: 1;
+  margin: 0 auto;
+  box-sizing:border-box;
+}
+
+img.art-image-thumb{
+  width:100%;
+}
+
+div.art-right{
+  font-size: 80%;
+  width: 50%;
+  min-width: 350px;
+  text-align: left;
+  margin: 0 auto;
+  order: 2;
+  padding: 20px;
+  box-sizing:border-box;
+}
+
+div.art-large{
+  text-align:center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  font-family: monospace;
+}
+
+div.art-large-left{
+  width: 1500px;
+  min-width: 80%;
+  order: 1;
+  margin: 0 auto;
+  box-sizing:border-box;
+}
+
+div.art-large-right{
+  min-width: 20rem;
+  max-width: 40rem;
+  text-align: left;
+  padding: 1rem;
+  margin: 0 auto;
+  order: 2;
+  box-sizing:border-box;
+}
+
+img.art-image-large{
+  margin: 0 auto;
+  max-width:100%;
+}
+
+p.caption{
+  font-family: monospace;
+  color: #808080;
+}
+
+div.image-title{
+  width:100%;
+  padding: 0 0 1em 0; /* top right bottom left */
+  text-align: center;
+  box-sizing:border-box;
+}
+
+img.image-title{
+  width:100%;
+  margin: 0 auto;
+}
+
+div.image-fullwidth{
+  width:100%;
+}
+
+img.image-fullwidth{
+  max-width:100%;
+}
+
+/* Publications    * -----------------------------------------------------------------------------*/
+
+a:link {
+  color: #bf4553;
+}
+
+a:hover {
+  color: #fb4e61;
+}
+
+a:visited {
+  color: #81222d;
+}
+
+div.publication{
+  text-align:left;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+div.publication-left{
+  width: 70%;
+  order: 1;
+  margin-bottom: 10px;
+  margin-right: 1em;
+}
+
+div.publication-right{
+  width:9em;
+  order: 2;
+}
+
+div.publication-extra{
+  width: 70%;
+  order: 3;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.publication-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.publication-authors {
+  font-family: "Fanwood-Italic-Webfont", serif;
+  padding-left: 1em;
+  margin-bottom: 5px;
+}
+
+.publication-arxiv-link {
+  padding-left: 1em;
+}
+
+.publication-conference-venue {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+/* PANELS ----------------------------------------------------------------------------------------*/
+
+/* Panel: Basic * ---------------------------------------------------------------------------------*/
+div.panel-basic {
+  padding: 1em;
+  width:100%;
+  box-sizing: border-box;
+}
+
+div.panel-basic-column {
+  width: 60%;
+  max-width: 50em;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Panel: Gallery  * -----------------------------------------------------------------------------*/
+
+div.panel-gallery{
+  width: 100%;
+  padding: 0 50px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+/* Panel: Parallel * -----------------------------------------------------------------------------*/
+
+div.panel-parallel-wide{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 150rem;
+  margin: 0 auto;
+}
+
+div.panel-parallel-subpanel{
+  flex: 1;
+  min-width: 300px;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Content Cards ---------------------------------------------------------------------------------*/
+
+div.content-card-basic{
+  padding: 20px;
+  margin-top: 1em;
+  margin: auto;
+  text-align: justify;
+}
+
+div.content-card-outline{
+  border: 2px;
+  border-style: solid;
+  border-color: #339fcd;
+  border-radius: 7px;
+  padding: 20px;
+  margin-top: 1em;
+  margin: auto;
+}
+
+card-header{
+  text-align: center;
+  max-height:2em;
+  display: block;
+  font-size: 1.5em;
+  /*font-weight: bold;*/
+  /*font-feature-settings: "smcp";*/
+  margin=0pt;
+}
+
+@media (min-width: 2000px) {
+  body {
+    font-size: 200%;
+  }
+}
+
+@media (max-width: 900px) {
+  div.panel-parallel-wide{
+    flex-basis: 100%;
+  }
+
+  div.panel-basic-column {
+    width: 100%;
+    padding: 1em;
+  }
+
+  div.publication-left {
+    width: 100%;
+  }
+
+  div.publication-extra {
+    width: 100%;
+  }
+
+
+@media screen and (max-width: 900px) {
+  div.logo {
+    position:static;
+  }
+
+  .left, .main, .right {
+    width: 100%;
+  }
+}
+
+</style>
+<title>Nathan Harms</title>
+</head>
+
+<body style="background-color:#fff9f0;text-align:center">
+
+<div class="boundary" style="overflow:hidden" width=100%>
+
+<div class="main">
+
+<root><div class="separator-large"><img src="ornaments/plant/separator_large.svg"/></div><div class="panel-basic"><div class="panel-basic-column"><div style="text-align:center"><h1>Research Tips</h1></div><p>Over the years I have discovered several methods for improving one’s research ability. I shall
+record them here for your benefit. If any of these are helpful for you, please consider adding me to
+the acknowledgments of your undoubtedly numerous papers.</p><p><strong>1. Wear a hat.</strong></p><p>90% of ideas escape from your head by radiation. Wear a hat to keep them in, until you need them.
+The best material for trapping ideas is denim. On the other hand, metals have the undesirable effect
+of dissipating ideas even faster, due to their high mnemoconductance, so avoid hats containing
+metal.</p><p><strong>2. Grow a beard.</strong></p><p>Research is done by moving ideas from your head, to your hands, to the paper or keyboard. Usually
+this process is slow because the ideas must travel down your neck, through the torso, to the hands.
+The human body, sadly, has low mnemoconductance, and therefore this is a slow and inefficient
+process, transforming many ideas into waste heat. Human hair has higher mnemoconductance than the
+body, and therefore ideas can be moved more efficiently from the head to the hand by stroking one’s
+beard. If this option is not available to you, use your nose hairs.</p><p><strong>3. Ensure an open space in front of your desk.</strong></p><p>Place your desk in front of a window, or anywhere that you’ll have open space in front of you when
+you are working. A common mistake is to place your desk in front of a wall, cubicle barrier, or
+other opaque surface. This makes it difficult to think of big ideas. Big ideas need big space, so
+make sure you’ve got it.</p><p><strong>4. Every 20 minutes do 10 pushups.</strong></p><p>Self-evident in retrospect but often missed.</p><p><strong>5. Listen to music that increases in tempo throughout the day.</strong></p><p>Producing research is like squeezing toothpaste from a tube. Listening to slow music is like
+squeezing the tube of toothpaste near its tail. Listening to fast music is like squeezing the tube
+near its opening. It is clear that one must squeeze from the tail first and then towards the
+opening.</p><p><strong>6. Your chair must not have armrests.</strong></p><p>This will be clear to anyone who is familiar with the concept of psychological ‘priming’. Armrests
+‘prime’ your mind in two ways: first, armrests restrict your motion, which primes you to restrict
+your thoughts; second, armrests prime you to think you should be resting. Neither is conducive to
+research.</p><p><strong>7. Drink coffee.</strong></p><p>The most relevant effect of coffee on the researcher is that it makes you pee, even more than water
+does. Since ideas often happen in the washroom, drinking large amounts of coffee puts you in the
+right circumstances to have ideas. There may be other benefits of coffee but these are not yet known
+to science.</p><p><strong>8. Donate blood regularly.</strong></p><p>Getting better at research means that you get better at filtering ideas and allowing only the good
+ones out. Unfortunately, that means that the bad ideas stay inside. Sometimes, they can build up
+inside your blood and cause problems with circulation, or saturate your system so that good ideas
+cannot travel from the head to the hands anymore. Donating blood helps regulate the level of bad
+ideas in your system. Don’t worry about your bad ideas causing problems for the recipient of your
+blood: in layman’s terms, ideas within the blood (before they have emerged in communicable form) are
+“encoded”, if you will, specially for you, and they will dissipate harmlessly in another person’s
+system. Bad ideas are harmful to others only if they emerge in the normal way.</p><p><strong>9. Use the “pomodoro” technique.</strong></p><p>You may have already heard of the pomodoro technique: put a timer for 30 minutes and focus on work
+until it rings, then take a 5 minute break and repeat. Use a timer that is either loud, bright, or
+otherwise easily noticable. The effectiveness of this technique is that it reminds you of every
+second you are closer to death.</p><p><strong>10. Your office must be on the 5th floor.</strong></p><p>Too low to the ground? Pollutants gather. Too high? The oxygen is lower. Either one disrupts
+cognition. The optimal height is the 5th floor. Any institution that puts you on a floor other than
+the 5th is not serious about research. Find another job.</p></div></div><div class="separator-mid"><img src="ornaments/plant/separator_mid.svg"/></div></root>
+
+
+</div>
+</div>
+
+
+<footer>© 2023 Nathaniel Harms</footer>
+</body>
+</html>
