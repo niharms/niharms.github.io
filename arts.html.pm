@@ -23,6 +23,27 @@ greatest invention of any humanoid species.
 
 ◊panel-gallery{
 
+◊art["itcs2024_convex" "/arts/itcs2024/convexity/slide_1.jpg" "Testing and Learning Convex Sets: ITCS 2024 Slides"]{
+  ◊bf{Testing Convex Sets: ITCS 2024 Slides.} Jan. 2024.
+
+  ◊bf{Pen:} Platinum 3776 Century (UEF nib) for black, various others for colors.
+
+  ◊bf{Ink:} Platinum carbon black, Diamine wild strawberry, Diamine ancient copper, Iroshizuku ama-iro.
+
+  ◊bf{Paper:} Mnemosyne Dot-Grid, A4.
+}
+
+
+◊art["itcs2024_confused" "/arts/itcs2024/confused/slide_1.jpg" "Confused Collector: ITCS 2024 Slides"]{
+  ◊bf{Confused Collector: ITCS 2024 Slides.} Jan. 2024.
+
+  ◊bf{Pen:} Platinum 3776 Century (UEF nib) for black, various others for colors.
+
+  ◊bf{Ink:} Platinum carbon black, Diamine wild strawberry, Diamine ancient copper, Iroshizuku ama-iro.
+
+  ◊bf{Paper:} Mnemosyne Dot-Grid, A4.
+}
+
 ◊art["soda2024" "/arts/soda2024/thumbnail_500.png" "SODA 2024 Slides"]{
   ◊bf{SODA 2024 Slides.} Jan. 2024.
 
