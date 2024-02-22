@@ -21,6 +21,12 @@
 ◊card-header{Conference & Journal Publications}
 
 ◊publication[
+  "No Complete Problem for Constant-Cost Communication"
+  "Yuting Fang, Lianna Hambardzumyan, Nathan Harms, Pooya Hatami" 
+  ""
+  "STOC 2024"]
+
+◊publication[
   "Distribution Testing with a Confused Collector"
   "Renato Ferreira Pinto Jr., Nathan Harms"
   "2311.14247"
