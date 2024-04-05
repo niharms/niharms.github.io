@@ -23,7 +23,7 @@
 ◊publication[
   "No Complete Problem for Constant-Cost Communication"
   "Yuting Fang, Lianna Hambardzumyan, Nathan Harms, Pooya Hatami" 
-  ""
+  "2404.00812"
   "STOC 2024"]
 
 ◊publication[
