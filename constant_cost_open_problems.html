@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<style>
+
+@font-face{
+  font-family: 'Fanwood-Webfont';
+  src: url('/fonts/fanwood-webfont.woff') format('woff');
+}
+@font-face{
+  font-family: 'Fanwood-Italic-Webfont';
+  src: url('/fonts/fanwood_italic-webfont.woff') format('woff');
+}
+@font-face{
+  font-family: 'Fanwood-Text-Italic-Webfont';
+  src: url('/fonts/fanwood_text_italic-webfont.woff') format('woff');
+}
+@font-face{
+  font-family: 'Fanwood-Text-Webfont';
+  src: url('/fonts/fanwood_text-webfont.woff') format('woff');
+}
+
+@font-face{
+  font-family: 'Goudy Bookletter 1911';
+  src: url('/fonts/goudy_bookletter_1911-webfont.woff') format('woff');
+}
+
+body {
+  /*font-family: 'Goudy Bookletter 1911', serif;*/
+  font-size: 120%;
+  background-color: #fff9f0;
+  font-family:"Fanwood-Webfont", serif;
+  font-feature-settings: "liga", "clig";
+  /*font-family:"Fanwood-Text-Webfont", serif;*/
+  /*font-family:"Fanwood-Text-Italic-Webfont", serif;*/
+}
+
+em {
+  font-family:"Fanwood-Italic-Webfont", serif;
+}
+
+footer{
+  padding: 2em;
+  opacity: 40%;
+}
+
+div.logo {
+  float: left;
+  width:55px;
+  opacity:60%;
+  position:fixed;
+}
+
+img.logo {
+  width: 100%;
+}
+
+.left, .right {
+  float: left;
+  width: 20%;
+}
+
+.main {
+  text-align:left;
+  margin:auto;
+  padding-left:0em;
+  padding-right:0em;
+}
+
+.drop-cap::first-letter {
+  font-size: 2em;
+  float: left;
+  margin: 0 5px 0 0;
+  padding:4px;
+  border: 1px solid;
+  border-radius:0px;
+}
+
+/* COLORS ----------------------------------------------------------------------------------------*/
+
+.color-blue {
+  background-color:#6bc6ff;
+}
+
+/* SEPARATORS ------------------------------------------------------------------------------------*/
+
+div.separator-large{
+  text-align:center;
+  width=100%;
+}
+
+div.separator-large img {
+  max-width: 42em;
+  width: 100%;
+  height: auto;
+  vertical-align:middle;
+}
+
+div.separator-mid{
+  margin: 0 0 0 0;
+  text-align:center;
+  width=100%;
+}
+
+div.separator-mid img {
+  max-width: 42em;
+  width: 100%;
+  height: auto;
+  vertical-align:middle;
+}
+
+
+/* Arts            * -----------------------------------------------------------------------------*/
+
+div.art{
+  text-align:center;
+  width: 100%;
+  max-width: 740px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: monospace;
+}
+
+div.art-left{
+  width: 50%;
+  min-width: 350px;
+  order: 1;
+  margin: 0 auto;
+  box-sizing:border-box;
+}
+
+img.art-image-thumb{
+  width:100%;
+}
+
+div.art-right{
+  font-size: 80%;
+  width: 50%;
+  min-width: 350px;
+  text-align: left;
+  margin: 0 auto;
+  order: 2;
+  padding: 20px;
+  box-sizing:border-box;
+}
+
+div.art-large{
+  text-align:center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  font-family: monospace;
+}
+
+div.art-large-left{
+  width: 1500px;
+  min-width: 80%;
+  order: 1;
+  margin: 0 auto;
+  box-sizing:border-box;
+}
+
+div.art-large-right{
+  min-width: 20rem;
+  max-width: 40rem;
+  text-align: left;
+  padding: 1rem;
+  margin: 0 auto;
+  order: 2;
+  box-sizing:border-box;
+}
+
+img.art-image-large{
+  margin: 0 auto;
+  max-width:100%;
+}
+
+p.caption{
+  font-family: monospace;
+  color: #808080;
+}
+
+div.image-title{
+  width:100%;
+  padding: 0 0 1em 0; /* top right bottom left */
+  text-align: center;
+  box-sizing:border-box;
+}
+
+img.image-title{
+  width:100%;
+  margin: 0 auto;
+}
+
+div.image-fullwidth{
+  width:100%;
+}
+
+img.image-fullwidth{
+  max-width:100%;
+}
+
+/* Publications    * -----------------------------------------------------------------------------*/
+
+a:link {
+  color: #bf4553;
+}
+
+a:hover {
+  color: #fb4e61;
+}
+
+a:visited {
+  color: #81222d;
+}
+
+div.publication{
+  text-align:left;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+div.publication-left{
+  width: 70%;
+  order: 1;
+  margin-bottom: 10px;
+  margin-right: 1em;
+}
+
+div.publication-right{
+  width:9em;
+  order: 2;
+}
+
+div.publication-extra{
+  width: 70%;
+  order: 3;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.publication-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.publication-authors {
+  font-family: "Fanwood-Italic-Webfont", serif;
+  padding-left: 1em;
+  margin-bottom: 5px;
+}
+
+.publication-arxiv-link {
+  padding-left: 1em;
+}
+
+.publication-conference-venue {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+/* PANELS ----------------------------------------------------------------------------------------*/
+
+/* Panel: Basic * ---------------------------------------------------------------------------------*/
+div.panel-basic {
+  padding: 1em;
+  width:100%;
+  box-sizing: border-box;
+}
+
+div.panel-basic-column {
+  width: 60%;
+  max-width: 50em;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Panel: Gallery  * -----------------------------------------------------------------------------*/
+
+div.panel-gallery{
+  width: 100%;
+  padding: 0 50px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+/* Panel: Parallel * -----------------------------------------------------------------------------*/
+
+div.panel-parallel-wide{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 150rem;
+  margin: 0 auto;
+}
+
+div.panel-parallel-subpanel{
+  flex: 1;
+  min-width: 300px;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Content Cards ---------------------------------------------------------------------------------*/
+
+div.content-card-basic{
+  padding: 20px;
+  margin-top: 1em;
+  margin: auto;
+  text-align: justify;
+}
+
+div.content-card-outline{
+  border: 2px;
+  border-style: solid;
+  border-color: #339fcd;
+  border-radius: 7px;
+  padding: 20px;
+  margin-top: 1em;
+  margin: auto;
+}
+
+card-header{
+  text-align: center;
+  max-height:2em;
+  display: block;
+  font-size: 1.5em;
+  /*font-weight: bold;*/
+  /*font-feature-settings: "smcp";*/
+  margin=0pt;
+}
+
+@media (min-width: 2000px) {
+  body {
+    font-size: 200%;
+  }
+}
+
+@media (max-width: 900px) {
+  div.panel-parallel-wide{
+    flex-basis: 100%;
+  }
+
+  div.panel-basic-column {
+    width: 100%;
+    padding: 1em;
+  }
+
+  div.publication-left {
+    width: 100%;
+  }
+
+  div.publication-extra {
+    width: 100%;
+  }
+
+
+@media screen and (max-width: 900px) {
+  div.logo {
+    position:static;
+  }
+
+  .left, .main, .right {
+    width: 100%;
+  }
+}
+
+</style>
+<title>Nathan Harms</title>
+</head>
+
+<body style="background-color:#fff9f0;text-align:center">
+
+<div class="boundary" style="overflow:hidden" width=100%>
+
+<div class="main">
+
+<root><div class="logo"><a href="index.html"><img class="logo" src="/ornaments/titles/NH.png"/></a></div><div class="separator-large"><img src="ornaments/plant/separator_large.svg"/></div><p><card-header>Headaches in Constant-Cost Communication</card-header></p><div style="text-align:center"><tt>(and a few organic remedies)</tt></div><p>
+</p><div class="separator-mid"><img src="ornaments/plant/separator_mid.svg"/></div><div class="panel-basic"><div class="panel-basic-column"><div class="content-card-basic"><p>A brief and incomplete guide to the open problems and results in constant-cost communication.  I
+will try to keep it up to date. If you cure a headache or cause a new headache, please tell me...  OR
+ELSE.</p><p>Last updated: 2024-07-16.</p></div><div class="content-card-basic"><div style="text-align:center"><span style="font-size:150%"><span style="font-feature-settings: 'smcp';">Definitions (Informal)</span></span></div><p>A <em>communication problem</em> is a family of Boolean-valued matrices.</p><p>An <em>oracle protocol</em> is...</p><p>A problem <em>reduces</em> to another problem when...</p></div><div class="content-card-basic"><div style="text-align:center"><span style="font-size:150%"><span style="font-feature-settings: 'smcp';">Headaches</span></span></div><p><strong>New communication problems.</strong> It is always nice to find new constant-cost problems, especially
+ones that look different from the ones we know. “Looking different” is informal, but if you can
+prove that it does not reduce to any known problem then that is certainly interesting.</p><p><em>Nathan thinks:</em> There should be many more constant-cost problems. The universe is deep and
+mysterious.</p><div style="text-align:center"><span style="font-size:150%">***</span></div><p><strong>Large monochromatic rectangles.</strong> Let P be any constant-cost problem. Does every N by N matrix in
+P have an ... math math ... submatrix?</p><p>This is a conjecture of Lianna Hambardzumyan, Hamed Hatami, &amp; Pooya Hatami [HHH22], and a special
+case of a question of Arkadev Chattopadhyay, Shachar Lovett, and Marc Vinyals [CLV19], and it is
+pretty important–communication complexity is all about monochromatic rectangles! We simply cannot
+abide diversity in our rectangles, no sir.</p><p><em>Nathan thinks:</em> The answer should be YES! But some people say that some people say that there
+are rumors that the answer could be imagined to be no. Unconfirmed.</p><div style="text-align:center"><span style="font-size:150%">***</span></div><p><strong>Completions of Gap Hamming Distance.</strong> Can the Gap Hamming Distance matrix be completed to form
+a constant-cost communication problem?</p><p>The (constant-)Gap Hamming Distance (GHD) matrix with gap gamma has rows and columns indexed by n-bit binary
+strings, such that entry x,y is 1 when the Hamming distance is at most gamma n, 0 when then Hamming
+distance is at least (1-gamma) n, and * otherwise. GHD has a constant-cost protocol, but it is a
+<em>partial</em> matrix. Also, every constant-cost communication matrix is a submatrix of Gap Hamming
+Distance for some constant gamma–this follows from a result of Nati Linial &amp; Adi Shraibman [LS09]
+as well as an elementary argument that we put in the appendix of [FGHH24].</p><p>We know that it is impossible to complete the GHD matrix in a way that it has large monochromatic
+rectangles (I think there are at least 5 different proofs of this, see e.g.??,??,??,??,??). So,
+under the monochromatic rectangle conjecture, it should not be possible to complete GHD to be a
+constant-cost problem.</p><p>It is not terribly difficult to show that the sign-rank of 1-Hamming Distance is bigger than 4.
+So, only infinitely many numbers remain...</p><p><em>Nathan thinks:</em> The answer should be NO!</p><div style="text-align:center"><span style="font-size:150%">***</span></div><p><strong>Sign-rank of 1-Hamming Distance.</strong> Does the <span style="font-feature-settings: 'smcp';">1-Hamming Distance</span> problem have bounded
+sign-rank?</p><p>This question was explicitly stated by Hamed Hatami, Pooya Hatami, William Pires, Tao, &amp; Zhao
+[HHPTZ22]. They showed that the known lower-bound techniques against sign-rank fail to answer this
+question. If 1HD has unbounded sign-rank, it would separate the classes BPP0 and UPP0.</p><p><em>Nathan thinks:</em> The answer should be NO!</p><div style="text-align:center"><span style="font-size:150%">***</span></div><p><strong>Intersection of BPP0 and UPP0.</strong> Is the class of problems with <em>both</em> constant-cost
+communication and bounded sign-rank equal to the class of problems that have a constant-cost
+<span style="font-feature-settings: 'smcp';">Equality</span>-oracle protocol?</p><p>This was asked by Viktor Zamaraev and I in [HZ24], and it would resolve some of the other questions:
+it would show that <span style="font-feature-settings: 'smcp';">1-Hamming Distance</span> does not have bounded sign-rank (because <span style="font-feature-settings: 'smcp';">1-Hamming
+Distance</span> does not reduce to <span style="font-feature-settings: 'smcp';">Equality</span> [HWZ22,HHH22]), and ...</p><p><em>Nathan thinks:</em> The answer should be YES! Is he brave enough to make it a conjecture? NO!</p><div style="text-align:center"><span style="font-size:150%">***</span></div><p><strong>Equality-oracle complexity of BPP0.</strong> Is there an Equality-oracle protocol with cost
+polyloglog(N) for any constant-cost problem?</p><p>If so, this would show that the <span style="font-feature-settings: 'smcp';">Integer Inner Product</span> problems do not have constant cost,
+since they are known to require log(N) <span style="font-feature-settings: 'smcp';">Equality</span>-oracle queries (a result of
+Tsun-Ming Cheung, ??, and Morgan Shirley [CHHS23]).</p><p>This question does not appear explicitly in the official literature but I have worked on it and I
+heard some others are working on it, you can ask me who.</p><p><em>Nathan thinks:</em> That would be nice but who knows!</p><div style="text-align:center"><span style="font-size:150%">***</span></div><p><strong>Quantitative separations for k-Hamming Distance.</strong> Is there a lower bound of log(n) k-Hamming
+Distance queries required to compute (k+1)-Hamming Distance on n bits, for all constants k?</p><p>Yuting Fang, Lianna Hambardzumyan, Pooya Hatami, and I [FHHH24] showed a <em>non-constant</em> lower
+bound for infinitely many values of k. Can this be improved to <em>all</em> values of k, and can it be
+improved quantitatively to match the log n upper bound from binary search?</p><p><em>Nathan thinks:</em> This lower bound should hold. Shame on us for not proving it already.</p><div style="text-align:center"><span style="font-size:150%">***</span></div><p><strong>Better boosting for constant-cost oracles.</strong> Using standard probability boosting, for any
+constant-cost problem P, a P-oracle protocol using q queries to P can be transformed into a
+randomized protocol with cost O(q log q). For which oracles P can this be improved?</p><p>Artur Riazanov and I showed in [HR24] that one can get O(q) for the <span style="font-feature-settings: 'smcp';">Equality</span> oracle,
+but <em>not</em> for the <span style="font-feature-settings: 'smcp';">1-Hamming Distance</span> oracle. We conjecture that “better boosting” is
+possible only for problems P that reduce to <span style="font-feature-settings: 'smcp';">Equality</span>.</p><p><em>Nathan thinks:</em> That was my conjecture, right? So you know what I think.</p><div style="text-align:center"><span style="font-size:150%">***</span></div><p><strong>Better boosting for bounded sign-rank.</strong> Does every constant-cost problem with bounded sign-rank
+have “better boosting”?</p><p>The conjecture of [HZ24] (which says that every constant-cost problem with bounded sign-rank reduces
+to <span style="font-feature-settings: 'smcp';">Equality</span>) would imply that the answer to this question is yes–so this is a weaker
+question than that.</p><p><em>Nathan thinks:</em> I hoped this would be an approach towards separaing BPP0 and UPP0 (since
+<span style="font-feature-settings: 'smcp';">1-Hamming Distance</span> does not have better boosting), but it is not clear if it is any easier.</p><div style="text-align:center"><span style="font-size:150%">***</span></div><p><strong>Problems between Equality and 1-Hamming Distance.</strong> Let P be a constant-cost problem.
+Is it always the case that either (1) P reduces to Equality, or (2) 1-Hamming Distance
+reduces to P? (In other words, is there nothing “between” Equality and 1-HD?)</p><p>If there is nothing between <span style="font-feature-settings: 'smcp';">Equality</span> and <span style="font-feature-settings: 'smcp';">1-Hamming Distance</span>, then our result in [HR24]
+answers the “better boosting” question.</p><p><em>Nathan thinks:</em> ??</p><div style="text-align:center"><span style="font-size:150%">***</span></div><p><strong>Sufficient conditions for finitely-defined problems.</strong> Say that a communication problem P is
+<em>finitely-defined</em> if there is a finite set H of matrices such that P is the family of all
+matrices which do not contain any submatrix in H. If P is finitely defined, then are the conditions</p><p>1. The number of N by N matrices in P is at most 2^O(N log N); and</p><p>2. P is <em>stable</em></p><p>sufficient to guarantee that P has constant-cost?</p><p>Lianna Hambardzumyan, Hamed Hatami, &amp; Pooya Hatami [HHH22b] showed that these conditions are not
+sufficient in general, but for finitely-defined problems they may be. Viktor Zamaraev and I made
+some progress towards this in [HZ24].</p><p><em>Nathan thinks:</em> Too early to tell.</p></div><div class="content-card-basic"><div style="text-align:center"><span style="font-size:150%"><span style="font-feature-settings: 'smcp';">Organic Remedies</span></span></div><p>[HHH22] Lianna Hambardzumyan, Hamed Hatami, Pooya Hatami. <em>Dimension-free Bounds and Structural
+Results in Communication Complexity</em>, Israel Journal of Mathematics 2022.</p><p>[HWZ22] Nathaniel Harms, Sebastian Wild, Viktor Zamaraev. <em>Randomized Communication and Implicit
+Representations of Graphs</em>, STOC 2022.</p><p>[HR24] Nathaniel Harms, Artur Riazanov. <em>Better Boosting for Communication Oracles, or Not</em>,
+manuscript 2024.</p></div></div></div></root>
+
+
+</div>
+</div>
+
+
+<footer>© 2024 Nathaniel Harms</footer>
+</body>
+</html>
