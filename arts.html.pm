@@ -23,6 +23,39 @@ greatest invention of any humanoid species.
 
 ◊panel-gallery{
 
+◊art["khd_hierarchy" "/arts/kHD/kHD_500_transparent.png" "k-Hamming Distance Hierarchy"]{
+  ◊bf{k-Hamming Distance Hierarchy.} June 2024.
+
+  ◊bf{Pen:} Platinum 3776 Century (UEF nib) for black, Lamy 2000 (M nib) for blue.
+
+  ◊bf{Ink:} Platinum carbon black, Iroshizuku Shin-Kai.
+
+  ◊bf{Paper:} Canson Sketch 120gsm, A4.
+}
+
+◊art["stoc2024" "/arts/stoc2024/thumbnail_500_transparent.png" "No Complete Problem: STOC 2024 slides"]{
+  ◊bf{No Complete Problem: STOC 2024 slides} June 2024.
+
+  ◊bf{Pen:} Platinum 3776 Century (UEF nib) for black, various others for colors.
+
+  ◊bf{Ink:} Platinum carbon black, Iroshizuku Ama-Iro, Fuyu-Gaki, and Shin-Kai.
+
+  ◊bf{Paper:} Rhodia R dot grid, A4 and Canson Sketch 120gsm, A4.
+}
+
+
+◊art["simons2024" "/arts/simons2024/thumbnail_500.png" "Hyperefficient Communication: Simons Fellow
+slides"]{
+  ◊bf{Hyperefficient Communication: Simons Fellow slides} June 2024.
+
+  ◊bf{Pen:} Platinum 3776 Century (UEF nib) for black, Lamy 2000 (M nib) for blue.
+
+  ◊bf{Ink:} Platinum carbon black, Iroshizuku Shin-Kai.
+
+  ◊bf{Paper:} Rhodia R dot grid, A4 and Canson Sketch 120gsm, A4.
+}
+
+
 ◊art["itcs2024_convex" "/arts/itcs2024/convexity/slide_1.jpg" "Testing and Learning Convex Sets: ITCS 2024 Slides"]{
   ◊bf{Testing Convex Sets: ITCS 2024 Slides.} Jan. 2024.
 
@@ -88,7 +121,7 @@ Graphs of Small Sign-Rank}, coauthored with Viktor Zamaraev and presented at SOD
 
 ◊bf{Paper:} G. Lalo Vélin Pur Coton, A4.
 
-I made this just for the website!
+I made this for this website.
 
 }
 

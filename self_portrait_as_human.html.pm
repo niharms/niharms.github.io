@@ -14,7 +14,7 @@
 
 ◊bf{Paper:} G. Lalo Vélin Pur Coton, A4.
 
-I made this just for the website!
+I made this for this website.
 
 ◊bf{The atoms:}
 

@@ -183,7 +183,10 @@ text)))]
 
 ;◊; Publications -----------------------------------------------
 (define (arxiv_link id)
-  `(a ((class "arxiv-link") (href ,(string-append "https://arxiv.org/abs/" id))) "arXiv"))
+  (if id
+    `(a ((class "arxiv-link") (href ,(string-append "https://arxiv.org/abs/" id))) "arXiv")
+    "No link yet..."
+  ))
 
 (define (publication title authors arxiv_id conference . elements)
   `(div ((class "publication"))

@@ -11,19 +11,22 @@ the acknowledgments of your undoubtedly numerous papers.
 
 ◊bf{1. Wear a hat.}
 
-90% of ideas escape from your head by radiation. Wear a hat to keep them in, until you need them.
+90% of ideas escape from your head by radiation. Wear a hat to keep them in.
 The best material for trapping ideas is denim. On the other hand, metals have the undesirable effect
 of dissipating ideas even faster, due to their high mnemoconductance, so avoid hats containing
 metal.
 
-◊bf{2. Grow a beard.}
+◊bf{2. Grow a beard or a braid.}
 
 Research is done by moving ideas from your head, to your hands, to the paper or keyboard. Usually
 this process is slow because the ideas must travel down your neck, through the torso, to the hands.
 The human body, sadly, has low mnemoconductance, and therefore this is a slow and inefficient
 process, transforming many ideas into waste heat. Human hair has higher mnemoconductance than the
 body, and therefore ideas can be moved more efficiently from the head to the hand by stroking one's
-beard. If this option is not available to you, use your nose hairs.
+beard. If this option is not available to you, grow a long braid that you can reach easily.
+Although the distance is longer than with a beard, the braid structure will improve its
+mnemoconductance to compensate. If you can grow neither a beard nor a braid then nose hairs
+will work.
 
 ◊bf{3. Ensure an open space in front of your desk.}
 
@@ -34,7 +37,7 @@ make sure you've got it.
 
 ◊bf{4. Every 20 minutes do 10 pushups.}
 
-Self-evident in retrospect but often missed. Many successful researchers may not even be aware that
+Many successful researchers may not even be aware that
 they are doing this.
 
 ◊bf{5. Listen to music that increases in tempo throughout the day.}
@@ -46,28 +49,27 @@ opening.
 
 ◊bf{6. Your chair must not have armrests.}
 
-This will be clear to anyone who is familiar with the concept of psychological 'priming'. Armrests
-'prime' your mind in two ways: first, armrests restrict your motion, which primes you to restrict
-your thoughts; second, armrests prime you to think you should be resting. Neither is conducive to
-research.
+This will be clear to anyone who is familiar with the concept of 'priming' in psychology. Armrests
+'prime' your mind in two ways. First, they restrict your motion, which primes you to restrict your
+thoughts. Second, they prime you to think you should be resting. Neither is conducive to research.
 
 ◊bf{7. Drink coffee.}
 
-The most relevant effect of coffee on the researcher is that it makes you pee, even more than water
-does. Since ideas often happen in the washroom, drinking large amounts of coffee puts you in the
-right circumstances to have ideas. There may be other benefits of coffee but these are not yet known
-to science.
+Coffee makes you pee, even more than water. Ideas often happen in the washroom, so drinking large
+amounts of coffee puts you in the right circumstances to have ideas. There may be other effects of
+coffee but these are not yet known to science.
 
 ◊bf{8. Donate blood regularly.}
 
 Getting better at research means that you get better at filtering ideas and allowing only the good
-ones out. Unfortunately, that means that the bad ideas stay inside. Sometimes, they can build up
-inside your blood and cause problems with circulation, or saturate your system so that good ideas
-cannot travel from the head to the hands anymore. Donating blood helps regulate the level of bad
-ideas in your system. Don't worry about your bad ideas causing problems for the recipient of your
-blood: in layman's terms, ideas within the blood (before they have emerged in communicable form) are
-"encoded", if you will, specially for you, and they will dissipate harmlessly in another person's
-system. Bad ideas are harmful to others only if they emerge in the normal way.
+ones out. Unfortunately, that means that the bad ideas stay inside. They can build up inside your
+blood and cause problems with circulation. Or, they saturate your system so that good ideas cannot
+travel from the head to the hands anymore.
+
+Donating blood helps regulate the level of bad ideas in your system. Don't worry about your bad
+ideas causing problems for the recipient of your blood: ideas within the blood are "encoded", if you
+will, specially for you, and they will dissipate harmlessly in another person's system. Bad ideas
+are harmful to others only if they emerge in the normal way.
 
 ◊bf{9. Use the "pomodoro" technique.}
 

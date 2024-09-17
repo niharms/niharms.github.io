@@ -18,25 +18,41 @@
 
 ◊panel-main{
 ◊content-card-basic{
+◊card-header{Awaiting Judgment}
+
+◊publication[
+  "Constant-Cost Communication is not Reducible to k-Hamming Distance"
+  "Yuting Fang, Mika Göös, Nathan Harms, Pooya Hatami" 
+  "2407.20204"
+  "Manuscript 2024"]
+
+
 ◊card-header{Conference & Journal Publications}
+
+◊publication[
+  "Better Boosting for Communication Oracles, or Not"
+  "Nathan Harms, Artur Riazanov" 
+  #f
+  "FSTTCS 2024"]
 
 ◊publication[
   "No Complete Problem for Constant-Cost Communication"
   "Yuting Fang, Lianna Hambardzumyan, Nathan Harms, Pooya Hatami" 
   "2404.00812"
-  "STOC 2024"]
+  "STOC 2024"]{◊link["https://youtube.com/watch?v=4BHn3UIfn6U"]{STOC video},
+◊link["/stoc2024.html"]{hand-drawn slides}}
 
 ◊publication[
   "Distribution Testing with a Confused Collector"
   "Renato Ferreira Pinto Jr., Nathan Harms"
   "2311.14247"
-  "ITCS 2024"]
+  "ITCS 2024"]{◊link["/itcs2024_confused.html"]{Hand-drawn slides here}.}
 
 ◊publication[
   "Testing and Learning Convex Sets in the Ternary Hypercube"
   "Hadley Black, Eric Blais, Nathan Harms"
   "2305.03194"
-  "ITCS 2024"]
+  "ITCS 2024"]{◊link["/itcs2024_convex.html"]{Hand-drawn slides here}.}
 
 ◊publication[
   "Randomized Communication and Implicit Representations for Matrices and Graphs of Small Sign-Rank"
@@ -50,11 +66,6 @@
   "2206.02872"
   "ICALP 2023"]{◊link["/arts/icalp2023_slides.pdf"]{Hand-drawn slides here}.}
 
-◊publication[
-  "Distribution Testing Under the Parity Trace"
-  "Renato Ferreira Pinto Jr., Nathan Harms"
-  "2304.01374"
-  "Manuscript 2023"]
 
 ◊publication[
   "Graphs with Minimum Fractional Domatic Number"
@@ -97,6 +108,15 @@
   "Nathan Harms"
   "1811.00139"
   "SODA 2019"]
+
+◊card-header{Miscellaneous Manuscripts}
+
+◊publication[
+  "Distribution Testing Under the Parity Trace"
+  "Renato Ferreira Pinto Jr., Nathan Harms"
+  "2304.01374"
+  "Manuscript 2023"]
+
 }
 }
 

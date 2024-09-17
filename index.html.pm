@@ -20,7 +20,7 @@ history, and like many other human beings in this time, I earn my meals by arran
 I am a theoretical computer scientist.
 Theoretical computer science is something that can happen when you don't understand what
 "information" is, and it bothers you so much that you can't sleep, and you have no option except to
-try to undestand what "information" is. This is achieved by arranging pixels into "PDFs".
+try to understand what "information" is. This is achieved by arranging pixels into "PDFs".
 
 I was indoctrinated in the ways of theoretical computer science by
 ◊link["https://cs.uwaterloo.ca/~eblais"]{Eric Blais} at the University of Waterloo.  Now I am a
@@ -42,22 +42,25 @@ postdoc in ◊link["https://ic-people.epfl.ch/~goos/"]{Mika Göös'} group at EP
 feel. I spend most of my time thinking about two things: property testing vs. learning, and
 randomized communication.
 
-◊center{◊bf{◊link["publications.html"]{Click here to see my sciences.}}}
+◊center{◊bf{◊link["publications.html"]{Click here to see Science.}}}
+}
+
+◊content-card-basic{
+◊image-inline{/arts/pt_cartoon_1k.png}
 
 ◊bf{Property testing vs. learning:} The goal is to understand which properties (i.e. sets of
 functions) can be ◊em{tested} more efficiently than they can be ◊em{learned}. I focus on the
 distribution-free sample-based model, because in this model, learning is well understood while
 property testing is not. 
 
-◊link["wola_poster.html"]{◊image-inline{/arts/wola_poster/parity_trace_poster_500_transparent.png}}
-◊center{◊caption{WOLA Poster. Pen & ink, 2023.}}
+◊dinkus
+
+◊image-inline{/arts/cc_cartoon_1k.png}
 
 ◊bf{Randomized communication:} The goal is to understand the power of randomness in communication.
 I am trying to understand the most extreme examples: the problems where the number of bits of
 communication required to solve the problem is ◊em{constant}, i.e. independent of the problem size.
 
-◊link["soda2024.html"]{◊image-inline{/arts/soda2024/randomized_communication_transparent_500.png}}
-◊center{◊caption{Slide from SODA 2024. Pen & ink, 2024.}}
 }
 }
 
@@ -71,7 +74,7 @@ and the stars and the chakras align, under the clearest of skies, when the campf
 embers and its smoke tickles the noses of angels, my pen puts pigment on the paper in a particular
 pleasant pattern, which some might even say, could crudely be considered "artistic".
 
-◊center{◊bf{◊link["arts.html"]{Click here to see my arts}.}}
+◊center{◊bf{◊link["arts.html"]{Click here to see Art}.}}
 
 ◊image-inline{/arts/octopus_500_transparent.png}
 ◊center{◊caption{Self portrait. Pen & ink, 2023.}}
