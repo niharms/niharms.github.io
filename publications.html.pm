@@ -21,6 +21,12 @@
 ◊card-header{Awaiting Judgment}
 
 ◊publication[
+  "Testing Support Size More Efficiently Than Learning Histograms"
+  "Renato Ferreira Pinto Jr., Nathan Harms"
+  "2410.18915"
+  "Manuscript 2024"]
+
+◊publication[
   "Constant-Cost Communication is not Reducible to k-Hamming Distance"
   "Yuting Fang, Mika Göös, Nathan Harms, Pooya Hatami" 
   "2407.20204"
@@ -32,11 +38,11 @@
 ◊publication[
   "Better Boosting for Communication Oracles, or Not"
   "Nathan Harms, Artur Riazanov" 
-  #f
+  "2410.00838"
   "FSTTCS 2024"]
 
 ◊publication[
-  "No Complete Problem for Constant-Cost Communication"
+  "No Complete Problem for Constant-Cost Randomized Communication"
   "Yuting Fang, Lianna Hambardzumyan, Nathan Harms, Pooya Hatami" 
   "2404.00812"
   "STOC 2024"]{◊link["https://youtube.com/watch?v=4BHn3UIfn6U"]{STOC video},
