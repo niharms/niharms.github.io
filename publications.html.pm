@@ -18,22 +18,22 @@
 
 ◊panel-main{
 ◊content-card-basic{
-◊card-header{Awaiting Judgment}
+
+
+
+◊card-header{Conference & Journal Publications}
 
 ◊publication[
   "Testing Support Size More Efficiently Than Learning Histograms"
   "Renato Ferreira Pinto Jr., Nathan Harms"
   "2410.18915"
-  "Manuscript 2024"]
+  "STOC 2025"]
 
 ◊publication[
   "Constant-Cost Communication is not Reducible to k-Hamming Distance"
   "Yuting Fang, Mika Göös, Nathan Harms, Pooya Hatami" 
   "2407.20204"
-  "Manuscript 2024"]
-
-
-◊card-header{Conference & Journal Publications}
+  "STOC 2025"]
 
 ◊publication[
   "Better Boosting for Communication Oracles, or Not"
